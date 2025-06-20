@@ -1,0 +1,59 @@
+#status_list {
+	position: absolute;
+	left   : 1.61%;
+	bottom : 20.1%;
+	width  : 15.50%; 
+	max-width: 268px; 
+	min-width: 75px;
+	border-radius: 12px; 
+}
+
+
+.status {
+	padding: 1px;
+	margin: -0.05em;
+	border-radius: 12px; 
+}
+
+.status_ari {
+    z-index: 2;
+    height : 0.9em;
+	opacity: 0;
+	border-radius: 12px; 
+}
+
+.status_val {
+    position: absolute;
+    z-index: 1;
+	height : 0.9em;
+	opacity: 0.6;
+	border-radius: 12px; 
+}
+
+.status_container {
+    position: relative;
+    width: 100%; 
+    max-width: 268px; 
+    height: 19; 
+    border: 2px solid rgba(0, 0, 0, 0.185); 
+    border-radius: 12px; 
+    box-sizing: border-box; 
+    margin-bottom: 5px; 
+    background-color: #b1b1b138; 
+}
+
+
+.status_percentage {
+	position: absolute;
+	left: 8px; 
+	top: 50%;
+	transform: translateY(-50%); 
+	font-size: 0.7em; 
+	color: white; 
+	font-weight: bold;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.562); 
+	z-index: 3; 
+	pointer-events: none; 
+}
+
+
