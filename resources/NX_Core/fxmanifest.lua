@@ -3,7 +3,7 @@ game 'gta5'
 lua54 'yes'
 
 
-shared_scripts { s
+shared_scripts {sss
     '@ox_lib/init.lua',
     '@es_extended/imports.lua',
     'src/conf.lua',
